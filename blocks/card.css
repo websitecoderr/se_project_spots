@@ -3,6 +3,7 @@
   width: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 2px;
 }
 
 .card__content {
@@ -11,6 +12,15 @@
   justify-content: space-between;
 }
 
+.cards__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 413px);
+  gap: 40px 20px;
+  justify-content: center;
+}
 .card__like-button {
   background-image: url(../images/heart.svg);
   width: 23px;
