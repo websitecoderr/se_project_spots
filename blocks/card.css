@@ -3,24 +3,28 @@
   width: 100%;
   object-fit: cover;
   display: block;
-  border-radius: 2px;
+  border-radius: 8px;
 }
 
 .card__content {
+  margin: 12px 0 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.cards__list {
-  list-style-type: none;
+.card__title {
   margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 413px);
-  gap: 40px 20px;
-  justify-content: center;
+  color: #212121;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 330px;
 }
+
 .card__like-button {
   background-image: url(../images/heart.svg);
   width: 23px;
@@ -30,8 +34,23 @@
   opacity: 40%;
 }
 
+.card__like-button:hover {
+  opacity: 1;
+}
+
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+  }
+
+  .card__like-button {
+    width: 20px;
+    height: 18px;
+    background-size: 20px 18px;
+  }
+
+  .card__title {
+    font-size: 16px;
+    line-height: 16px;
   }
 }
