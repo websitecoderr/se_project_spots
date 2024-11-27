@@ -1,5 +1,8 @@
 # Spots - Social Media Profile Layout Project
 
+![image](Screenshot%202024-11-26%20190612.png)
+![image](Screenshot%202024-11-26%20190640.png)
+
 ## Project Overview
 Spots is a project focused on implementing responsive web design principles and pixel-perfect layout techniques. The project replicates a social media platform interface, with emphasis on ensuring proper display across various screen sizes while following a professional design specification from Figma.
 
