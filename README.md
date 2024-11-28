@@ -1,9 +1,12 @@
 # Spots - Social Media Profile Layout Project
 
-[Click for spots project](https://websitecoderr.github.io/se_project_spots/)
 ![image](Screenshot%202024-11-26%20190612.png)
 ![image](Screenshot%202024-11-26%20190640.png)
-[Spots project video](https://drive.google.com/file/d/12ca8H9h1PkSrAPsouR9ysDqWnRER8D8V/view)
+
+[Click for spots project](https://websitecoderr.github.io/se_project_spots/)
+
+[Spots project video](https://drive.google.com/file/d/1PWMkbTYCf8cuttTgy3RoGJVPYcBCD55g/view?usp=sharing)
+
 
 ## Project Overview
 Spots is a project focused on implementing responsive web design principles and pixel-perfect layout techniques. The project replicates a social media platform interface, with emphasis on ensuring proper display across various screen sizes while following a professional design specification from Figma.
