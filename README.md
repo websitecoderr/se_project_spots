@@ -5,7 +5,7 @@
 
 [Click for spots project](https://websitecoderr.github.io/se_project_spots/)
 
-[Spots project video](https://drive.google.com/file/d/1PDJCRICA75gDrhsBcarugtinyuMQFVSu/view?usp=sharing)
+[Spots project video](https://www.youtube.com/watch?v=N09Bf216ruE)
 
 
 ## Project Overview
