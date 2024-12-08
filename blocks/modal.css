@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
+  visibility: hidden;
 }
 
 .modal__opened {
@@ -50,6 +51,8 @@
 
 .modal__input {
   padding: 16px 12px;
+  border: 1px solid #21212166; /* #212121 opacity 40% */
+  border-radius: 8px;
 }
 
 .modal__submit-btn {
@@ -68,10 +71,10 @@
     padding: 12px;
   }
 
-  .mmodal__title {
+  .modal__title {
     font-size: 20px;
     margin-bottom: 24px;
-    margin: 10px 0 34;
+    margin: 10px 0 34px;
   }
 
   .modal__close-btn {
