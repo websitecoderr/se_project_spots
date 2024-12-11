@@ -37,6 +37,11 @@
   background-image: url(../images/Close.svg);
   border: none;
   background-color: transparent;
+  opacity: 40%;
+}
+
+.modal__close-btn:hover {
+  opacity: 100%;
 }
 
 .modal__title {
@@ -57,6 +62,11 @@
   padding: 16px 12px;
   border: 1px solid #21212166; /* #212121 opacity 40% */
   border-radius: 8px;
+
+}
+
+.modal__input:hover {
+  border: 1px solid #212121;
 }
 
 .modal__submit-btn {
@@ -64,6 +74,12 @@
   padding: 18px 0;
   background: #212121;
   color: #fff;
+  border-radius: 8px;
+  
+}
+
+.modal__submit-btn:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 627px) {
