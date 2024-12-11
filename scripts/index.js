@@ -56,11 +56,11 @@ function getCardElement(data) {
 function openModal() {
   editModalNameInput.value = profileName.textContent.trim();
   editModalDescriptionInput.value = profileDescription.textContent.trim();
-  editModal.classList.add("modal_opened"); // Use modal_opened to follow BEM convention
+  editModal.classList.add("modal_opened"); 
 }
 
 function closeModal() {
-  editModal.classList.remove("modal_opened"); // Ensure the class name matches
+  editModal.classList.remove("modal_opened"); 
 }
 
 function handleEditFormSubmit(evt) {
