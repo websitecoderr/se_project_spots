@@ -24,6 +24,8 @@
   position: relative;
   width: 100%;
   box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .modal__close-btn {
@@ -33,6 +35,8 @@
   width: 40px;
   height: 40px;
   background-image: url(../images/Close.svg);
+  border: none;
+  background-color: transparent;
 }
 
 .modal__title {

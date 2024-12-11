@@ -62,7 +62,7 @@ function openModal() {
   editModalNameInput.value = profileName.textContent.trim();
 
   editModalDescriptionInput.value = profileDescription.textContent.trim();
-  editModal.classList.add("modal__opened");
+  editModal.classList.add("modal_opened");
 }
 
 function closeModal() {
