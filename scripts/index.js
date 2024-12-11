@@ -38,12 +38,16 @@ const editModal = document.querySelector("#edit-modal");
 const editFormElement = editModal.querySelector(".modal__form");
 const editModalCloseBtn = editModal.querySelector(".modal__close-btn");
 const editModalNameInput = editModal.querySelector("#profile-name-input");
-const editModalDescriptionInput = editModal.querySelector("#profile-description-input");
+const editModalDescriptionInput = editModal.querySelector(
+  "#profile-description-input"
+);
 const cardTemplate = document.querySelector("#card-template");
 const cardsList = document.querySelector(".cards__list");
 
 function getCardElement(data) {
-  const CardElement = cardTemplate.content.querySelector(".card").cloneNode(true);
+  const CardElement = cardTemplate.content
+    .querySelector(".card")
+    .cloneNode(true);
   const cardNameEl = CardElement.querySelector(".card__title");
   const cardImageEl = CardElement.querySelector(".card__image");
   cardNameEl.textContent = data.name;
@@ -56,11 +60,11 @@ function getCardElement(data) {
 function openModal() {
   editModalNameInput.value = profileName.textContent.trim();
   editModalDescriptionInput.value = profileDescription.textContent.trim();
-  editModal.classList.add("modal_opened"); // Use modal_opened to follow BEM convention
+  editModal.classList.add("modal_opened");
 }
 
 function closeModal() {
-  editModal.classList.remove("modal_opened"); // Ensure the class name matches
+  editModal.classList.remove("modal_opened");
 }
 
 function handleEditFormSubmit(evt) {
