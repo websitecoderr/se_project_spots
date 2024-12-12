@@ -129,6 +129,7 @@
   .profile__edit-button {
     margin: auto;
     margin-bottom: 20px;
+    cursor: pointer;
   }
 
   .profile__add-button {
@@ -136,5 +137,6 @@
     justify-content: center;
     margin-left: 0;
     max-width: 288px;
+    cursor: pointer;
   }
 }

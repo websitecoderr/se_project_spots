@@ -38,6 +38,7 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+  cursor: pointer;
 }
 
 .modal__close-btn:hover {
@@ -62,7 +63,6 @@
   padding: 16px 12px;
   border: 1px solid #21212166; /* #212121 opacity 40% */
   border-radius: 8px;
-
 }
 
 .modal__input:hover {
@@ -75,7 +75,7 @@
   background: #212121;
   color: #fff;
   border-radius: 8px;
-  
+  cursor: pointer;
 }
 
 .modal__submit-btn:hover {
@@ -104,6 +104,7 @@
     right: 12px;
     border: none;
     background-color: transparent;
+    cursor: pointer;
   }
 
   .modal__label {
@@ -112,5 +113,6 @@
 
   .modal__submit-btn {
     width: 100%;
+    cursor: pointer;
   }
 }
