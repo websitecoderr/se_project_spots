@@ -74,7 +74,7 @@
   opacity: 1;
 }
 
-.profile__add-button {
+.profile__new-post-button {
   align-items: center;
   justify-content: center;
   display: flex;
@@ -93,7 +93,7 @@
   cursor: pointer;
 }
 
-.profile__add-button:hover {
+.profile__new-post-button:hover {
   opacity: 0.8;
 }
 
@@ -132,7 +132,7 @@
     cursor: pointer;
   }
 
-  .profile__add-button {
+  .profile__new-post-button {
     width: 100%;
     justify-content: center;
     margin-left: 0;
