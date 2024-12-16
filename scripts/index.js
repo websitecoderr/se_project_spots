@@ -1,6 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
   const initialCards = [
     {
+      name: "Golden Gate bridge",
+      link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/7-photo-by-griffin-wooldridge-from-pexels.jpg",
+    },
+
+    {
       name: "Val Thorens",
       link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/1-photo-by-moritz-feldmann-from-pexels.jpg",
     },
@@ -23,11 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       name: "Mountain house",
       link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/6-photo-by-moritz-feldmann-from-pexels.jpg",
-    },
-
-    {
-      name: "Bridge",
-      link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/7-photo-by-griffin-wooldridge-from-pexels.jpg",
     },
   ];
 
