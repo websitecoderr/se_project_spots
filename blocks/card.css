@@ -9,7 +9,6 @@
   width: 100%;
   object-fit: cover;
   display: block;
-
   border-radius: 8px;
 }
 
@@ -41,6 +40,7 @@
   opacity: 40%;
   flex-shrink: 0;
   cursor: pointer;
+  background-repeat: no-repeat;
 }
 
 .card__like-button:hover {
@@ -48,7 +48,7 @@
 }
 
 .card__like-button-liked {
-  background-image: url(../images/Like-icon-liked.svg);
+  background-image: url(../images/Likedicon.svg);
   opacity: 1;
 }
 

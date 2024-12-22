@@ -73,12 +73,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     cardLikeBtn.addEventListener("click", () => {
       cardLikeBtn.classList.toggle("card__like-button-liked");
-      console.log("Like button clicked!");
     });
 
     cardDeleteBtn.addEventListener("click", () => {
       cardElement.remove();
-      console.log("Card deleted!");
     });
 
     cardImageEl.addEventListener("click", () => {
