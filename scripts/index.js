@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const previewImage = previewModal.querySelector(".modal__image");
   const previewCaption = previewModal.querySelector(".modal__caption");
   const previewCloseBtn = previewModal.querySelector(
-    ".modal__close_type_preview"
+    ".modal__close-type_preview"
   );
 
   function getCardElement(data) {
