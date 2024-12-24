@@ -61,7 +61,10 @@
       </footer>
       <div class="modal" id="edit-modal">
         <div class="modal__container">
-          <button type="button" class="modal__close-btn"></button>
+          <button
+            type="button"
+            class="modal__close-btn modal__close-btn--preview"
+          ></button>
           <h2 class="modal__title">Edit Profile</h2>
           <form name="edit profile" class="modal__form">
             <label for="profile-name-input" class="modal__label">
@@ -90,8 +93,11 @@
 
     <div class="modal" id="add-card-modal">
       <div class="modal__container">
-        <button type="button" class="modal__close-btn"></button>
-        <h2 class="modal__title">New Post</h2>
+        <button
+          type="button"
+          class="modal__close-btn modal__close-btn--preview"
+        ></button>
+         <h2 class="modal__title">New Post</h2>
         <form name="edit profile" class="modal__form" id="add-card-form">
           <label for="add-card-link-input" class="modal__label">
             Image Link
@@ -106,7 +112,7 @@
           <label for="add-card-description-input" class="modal__label">
             Caption
             <input
-              id="add-card-name-input"
+              id="add-card-description-input"
               type="text"
               class="modal__input"
               placeholder="Type your caption"
@@ -120,13 +126,12 @@
       <div class="modal__content modal__content_type_preview">
         <button
           type="button"
-          class="modal__close-preview-btn modal__close-type_preview"
+          class="modal__close-btn modal__close-btn_preview"
         ></button>
-        <img class="modal__image" src="" alt="" />
+        <img class="modal__image" src="https://websitecoderr.github.io/se_project_spots/" alt="Preview image" />
         <p class="modal__caption"></p>
       </div>
     </div>
-
     <script defer src="./scripts/index.js"></script>
   </body>
 </html>

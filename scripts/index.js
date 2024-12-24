@@ -44,7 +44,6 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   const cardTemplate = document.querySelector("#card-template");
   const cardsList = document.querySelector(".cards__list");
-
   const cardModal = document.querySelector("#add-card-modal");
   const cardForm = cardModal.querySelector(".modal__form");
   const cardModalCloseBtn = cardModal.querySelector(".modal__close-btn");
@@ -55,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const previewImage = previewModal.querySelector(".modal__image");
   const previewCaption = previewModal.querySelector(".modal__caption");
   const previewCloseBtn = previewModal.querySelector(
-    ".modal__close-type_preview"
+    ".modal__close-btn_preview"
   );
 
   function getCardElement(data) {
@@ -110,9 +109,13 @@ document.addEventListener("DOMContentLoaded", () => {
       name: cardNameInput.value,
       link: cardLinkInput.value,
     };
-    console.log("Adding card with values:", inputValues);
+
     const cardEl = getCardElement(inputValues);
     cardsList.prepend(cardEl);
+
+    cardNameInput.value = "";
+    cardLinkInput.value = "";
+
     closeModal(cardModal);
   }
 
